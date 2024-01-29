@@ -1,9 +1,9 @@
 import './App.css'
 import React from "react";
-import Potfolio from './components/Potfolio';
+import Portfolio from './components/Portfolio';
 
 function App() {
-  return <Potfolio />;
+  return <Portfolio />;
 }
 
 export default App

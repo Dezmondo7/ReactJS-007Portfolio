@@ -1,7 +1,7 @@
 import React from "react";
 
-function Potfolio() {
+function Portfolio() {
     return<p>Hello World</p>;
 }
 
-export default Potfolio;
+export default Portfolio;

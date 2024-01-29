@@ -1,5 +1,5 @@
 import React from "react";
-import myImage from "../assets/header-image.avif";
+import myImage from "../images/header-image.avif";
 
 function TopImage() {
     return  <div class="top-image">

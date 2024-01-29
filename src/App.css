@@ -114,3 +114,17 @@ header {
   display: flex;
   justify-content: center;
 }
+
+.top-image {
+  position: relative;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  padding-top: 20px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 15px;
+  right: 40px;
+}

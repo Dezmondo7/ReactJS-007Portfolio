@@ -1,9 +1,11 @@
 import './App.css'
 import React from "react";
-import Portfolio from './components/Portfolio';
+import Header from './components/Header';
+import TopImage from './components/TopImage';
 
 function App() {
-  return <Portfolio />;
+  return <Header />
+  return <TopImage />
 }
 
 export default App

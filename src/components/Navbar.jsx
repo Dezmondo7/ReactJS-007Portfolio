@@ -1,6 +1,6 @@
 import React from "react";
 
-function Header() {
+function Navbar() {
     return    <header>
         <div class="navbar">
             <div className="logo"><a href="index.html">Dezmondo7 Portfolio</a></div>
@@ -24,4 +24,4 @@ function Header() {
     </header>
 }
 
-export default Header;
+export default Navbar;

@@ -1,13 +1,10 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 * {
     box-sizing: border-box;
   }
   
   body {
-    background: radial-gradient(#27212e, #221530);
+    background-image: url("https://unsplash.com/photos/low-angle-photo-of-sky-and-clouds-RnCPtNrgJFc");
+    height: 100vh;
     color: #d9c9ee;
   }
   

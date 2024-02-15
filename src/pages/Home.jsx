@@ -13,12 +13,10 @@ function Home() {
       <h5 className="card-title">Dale Warburton</h5>
       <p className="card-text">HTML5, CSS3, JavaScript, ReactJS, Python, JQuery, Node JS, Bootstrap 5.3, Tailwind
         .</p>
-      <a href="#" className="btn btn-primary">Projects</a>
+      <a href="#" className="btn btn-primary">Resume</a>
     </div>
   </div>
   </div>
-
-
     );
 }
 

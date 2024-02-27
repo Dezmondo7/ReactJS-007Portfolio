@@ -5,7 +5,7 @@ import Home from './pages/Home';
 import NavBar from './pages/NavBar';
 import Footer from './components/Footer';
 import Projects from './pages/Projects';
-import 'bootstrap/dist/css/bootstrap.min.css'
+import Cards from './pages/Cards';
 
 function App() {
 
@@ -17,6 +17,7 @@ function App() {
      <Routes>
      <Route path="/" element={<Home />} />
      <Route path="/Projects" element={<Projects />} />
+     <Route path="/Cards" element={<Cards />} />
      </Routes >
      </Router >
    </div>

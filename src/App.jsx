@@ -5,7 +5,7 @@ import Home from './pages/Home';
 import NavBar from './pages/NavBar';
 import Footer from './components/Footer';
 import Projects from './pages/Projects';
-import Cards from './pages/Cards';
+import Cardsgallery from './pages/CardsGallery';
 
 function App() {
 
@@ -17,7 +17,7 @@ function App() {
      <Routes>
      <Route path="/" element={<Home />} />
      <Route path="/Projects" element={<Projects />} />
-     <Route path="/Cards" element={<Cards />} />
+     <Route path="/Cards" element={<Cardsgallery />} />
      </Routes >
      </Router >
    </div>

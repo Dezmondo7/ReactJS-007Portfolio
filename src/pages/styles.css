@@ -19,5 +19,13 @@
     right: 40px;
   }
 
+  .flex-container {
+    display: flex;
+  }
+
+  img {
+    height: 200px;
+  }
+
 
   

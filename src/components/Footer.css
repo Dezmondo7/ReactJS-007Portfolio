@@ -2,11 +2,17 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-.wrapper {
-    position: absolute;
-    bottom: 0;
-    left: 0;
+
+* {
+    text-decoration: none;
 }
 
+.bg-navy {
+    background-color: rgb(31, 41, 55)
+} 
 
+.text-base a {
+    color: #fff;
+    text-decoration: none;
+}
 

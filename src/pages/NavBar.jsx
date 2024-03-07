@@ -7,7 +7,7 @@ import '../pages/NavBar.css';
 
 const navigation = [
   { name: 'Home', href: '#', current: true },
-  { name: 'Team', href: '#', current: false },
+  { name: 'About', href: '#', current: false },
   { name: 'Projects', href: '#/Projects', current: false },
   { name: 'Contact', href: '#', current: false },
 ]
@@ -96,24 +96,25 @@ export default function Example() {
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="#"
+                            href="https://www.linkedin.com/in/dalewarburton1/"
                             className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
                           >
-                            Your Profile
+                           <i class="fa-brands fa-linkedin"> LinkedIN</i>
+                           
                           </a>
                         )}
                       </Menu.Item>
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="#"
+                            href="https://github.com/Dezmondo7"
                             className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
                           >
-                            Settings
+                            <i class="fa-brands fa-github"> GitHub</i>
                           </a>
                         )}
                       </Menu.Item>
-                      <Menu.Item>
+                     {/* <Menu.Item>
                         {({ active }) => (
                           <a
                             href="#"
@@ -122,7 +123,7 @@ export default function Example() {
                             Sign out
                           </a>
                         )}
-                      </Menu.Item>
+                        </Menu.Item>*/}
                     </Menu.Items>
                   </Transition>
                 </Menu>

@@ -45,7 +45,7 @@ function Home() {
             class="relative z-[1] block rounded-lg bg-[hsla(0,0%,100%,0.55)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] backdrop-blur-[30px] dark:bg-[hsla(0,0%,5%,0.55)] dark:shadow-black/20 md:px-12 lg:-mr-14">
             <h2 class="mb-8 text-3xl font-bold">Dale Warburton</h2>
             <p class="mb-8 pb-2 text-neutral-500 dark:text-neutral-300 lg:pb-0">
-              HTML5, CSS3, JavaScript, Python, JQuery, NodeJS, ReactJS, Bootstrap, Tailwind, Canva, Git. 
+              HTML5, CSS3, JavaScript, ES6, Python, JQuery, NodeJS, ReactJS, Bootstrap, Tailwind, Canva, Git. 
             </p>
 
             <div class="mx-auto mb-8 flex flex-col md:flex-row md:justify-around lg:justify-between">

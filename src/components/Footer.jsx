@@ -7,12 +7,12 @@ function Footer() {
     <div className="max-w-screen-xl px-4 py-2 mx-auto space-y-4 overflow-hidden sm:px-6 lg:px-8">
         <nav className="flex flex-wrap justify-center -mx-5 -my-2">
             {/*Navigation links*/}
-            <div className="px-5 py-2">
+            <div className="px-4 py-2">
                 <a href="/" className="text-base leading-6">
                     Home
                 </a>
             </div>
-            <div className="px-5 py-2">
+            <div className="px-4 py-2">
                 <a href="/explorer" className="text-base leading-6">
                     About
                 </a>
@@ -22,18 +22,18 @@ function Footer() {
                     My Gallery
                 </a>
   </div>*/}
-            <div className="px-5 py-2">
+            <div className="px-4 py-2">
                 <a href="/projects" className="text-base leading-6">
                     Projects
                 </a> </div>
-            <div className="px-5 py-2">
+            <div className="px-4 py-2">
                 <a href="contact/*" className="text-base leading-6">
                     Contact
                 </a>
             </div>
         </nav>
         {/*Social Media Links*/}
-        <div className="flex justify-center mt-8 space-x-6">
+        <div className="flex justify-center mt-4 space-x-6">
             <a href="https://www.facebook.com/" className="text-gray-400 hover:text-gray-500">
                 <span className="sr-only">Facebook</span>
                 <svg className="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">

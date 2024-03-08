@@ -16,10 +16,10 @@
     text-decoration: none;
 }
 
-.px-5 a {
+.px-4 a {
     color: #ffff;
 }
 
-.px-5 a:hover {
+.px-4 a:hover {
     color: orange;
 }

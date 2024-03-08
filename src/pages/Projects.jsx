@@ -1,6 +1,5 @@
 import React from "react";
 import Netflix from "../images/netflix_tv.avif";
-import Bootstrap from "../images/bootstrap.jpg";
 import Bootrap2 from "../images/BS2.jpg";
 import './Projects.css';
 import 'bootstrap/dist/css/bootstrap.min.css';

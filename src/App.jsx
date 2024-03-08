@@ -10,21 +10,21 @@ import ContactForm from './pages/ContactForm';
 
 function App() {
 
-  return ( 
-  <div className='page-container'>
-    <div className='contenet-wrapper'>
-     <Router>
-      <NavBar />
-     <Routes>
-     <Route path="/" element={<Home />} />
-     <Route path="/Projects" element={<Projects />} />
-     <Route path="/Cards" element={<Cardsgallery />} />
-     <Route path="/Contact" element={<ContactForm />} />
-     </Routes >
-     </Router >
-   </div>
-     <Footer />
-   </div>
+  return (
+    <div className='page-container'>
+      <div className='contenet-wrapper'>
+        <Router>
+          <NavBar />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/Projects" element={<Projects />} />
+            <Route path="/Cards" element={<Cardsgallery />} />
+            <Route path="/Contact" element={<ContactForm />} />
+          </Routes >
+        </Router >
+      </div>
+      <Footer />
+    </div>
   );
 }
 

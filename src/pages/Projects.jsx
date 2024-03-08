@@ -20,14 +20,16 @@ function Projects() {
         <img src={Netflix} className="d-block w-100 h-50" alt="Netflix Desktop Logo" />
         <div className="carousel-caption d-none d-md-block">
         <a href="#">Netflix Clone</a>
-          <p>Some representative placeholder content for the first slide.</p>
+          <p>Site built using HTML5, CSS3 & JavaScript.</p>
+          <a href=""><i class="fa-brands fa-github fa-2xl"></i></a>
         </div>
       </div>
       <div className="carousel-item">
         <img src={ironman} className="d-block w-100 h-50" alt="..." />
         <div className="carousel-caption d-none d-md-block">
           <a href="#">FlickFinder</a>
-          <p>Some representative placeholder content for the second slide.</p>
+          <p>Code Crusaders project built using HTML5, CSS3, JavaScript & API's.</p>
+          <a href=""><i class="fa-brands fa-github fa-2xl"></i></a>
         </div>
       </div>
       <div className="carousel-item">
@@ -35,6 +37,7 @@ function Projects() {
         <div className="carousel-caption d-none d-md-block">
           <h5>Bootsrap</h5>
           <p>Some representative placeholder content for the third slide.</p>
+          <a href=""><i class="fa-brands fa-github fa-2xl"></i></a>
         </div>
       </div>
     </div>

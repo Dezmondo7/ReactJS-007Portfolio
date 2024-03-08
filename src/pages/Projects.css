@@ -20,3 +20,7 @@ a {
 #carouselExampleCaptions {
     margin-bottom: 20px;
 }
+
+.fa-brands .fa-github .fa-2xl:hover {
+    color: orange;
+}

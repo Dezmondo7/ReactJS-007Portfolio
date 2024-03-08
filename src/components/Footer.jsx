@@ -23,7 +23,7 @@ function Footer() {
                 </a>
   </div>*/}
             <div className="px-5 py-2">
-                <a href="/search" className="text-base leading-6">
+                <a href="/projects" className="text-base leading-6">
                     Projects
                 </a> </div>
             <div className="px-5 py-2">

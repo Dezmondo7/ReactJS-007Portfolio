@@ -19,3 +19,7 @@
 .px-5 a {
     color: #ffff;
 }
+
+.px-5 a:hover {
+    color: orange;
+}

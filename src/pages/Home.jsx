@@ -82,16 +82,14 @@ function Home() {
             <p class="mb-0 text-neutral-500 dark:text-neutral-300">
             I've been interested in technology and gaming as long as I can
               remember,
-              the PC and X-box are my favorite gaming consoles. For the past 5 years I
-              have worked in IT helping some of the worlds largest brands complete some pretty cool projects by
-              supplying them highly experienced contractors. I find enjoyment in picking up new technologies and
+              the PC and X-box are my favorite gaming consoles. My creativity & attention to detail allows me to develop wireframes into visually appealing responsive designs written with clean code. I find enjoyment in picking up new technologies and
               building cool projects.
               <ul><li><br></br></li>
                <li>Level 1 Cybersecurity</li>
                <li>Level 2 Website Software (ITQ)</li>
                <li>Level 2 Using Collaborative Technologies (ITQ)</li>
                <li>Level 2 IT User Skills (Open Systems and Enterprise) (ITQ)</li>
-               <li>2024 EdX Front-End Engineer Bootcamp Alumni</li>
+               <li>2024 Ed-X Front-End Engineer Bootcamp Alumni</li>
               </ul>
             </p>
           </div>

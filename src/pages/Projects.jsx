@@ -1,12 +1,15 @@
 import React from "react";
 import Netflix from "../images/netflix_tv.avif";
 import Bootstrap from "../images/bootstrap.jpg";
+import Bootrap2 from "../images/BS2.jpg";
 import './Projects.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import ironman from '../images/ironman-venom.png';
 
 
 function Projects() {
     return (
+      <div class="container">
     <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="false">
     <div className="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -15,23 +18,23 @@ function Projects() {
     </div>
     <div className="carousel-inner">
       <div className="carousel-item active">
-        <img src={Netflix} className="d-block w-100" alt="..." />
+        <img src={Netflix} className="d-block w-100 h-50" alt="Netflix Desktop Logo" />
         <div className="carousel-caption d-none d-md-block">
         <a href="#">Netflix Clone</a>
           <p>Some representative placeholder content for the first slide.</p>
         </div>
       </div>
       <div className="carousel-item">
-        <img src={Bootstrap} className="d-block w-100" alt="..." />
+        <img src={ironman} className="d-block w-100 h-50" alt="..." />
         <div className="carousel-caption d-none d-md-block">
-          <a href="#">Bootstrap Portfolio</a>
+          <a href="#">FlickFinder</a>
           <p>Some representative placeholder content for the second slide.</p>
         </div>
       </div>
       <div className="carousel-item">
-        <img src="..." className="d-block w-100" alt="..." />
+        <img src={Bootrap2} className="d-block w-100 h-50" alt="..." />
         <div className="carousel-caption d-none d-md-block">
-          <h5>Third slide label</h5>
+          <h5>Bootsrap</h5>
           <p>Some representative placeholder content for the third slide.</p>
         </div>
       </div>
@@ -44,6 +47,7 @@ function Projects() {
       <span className="carousel-control-next-icon" aria-hidden="true"></span>
       <span className="visually-hidden">Next</span>
     </button>
+  </div>
   </div>
     )
 };

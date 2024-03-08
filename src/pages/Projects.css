@@ -5,3 +5,18 @@
 a {
     text-decoration: none;
 }
+
+.container {
+    height: 100%;
+}
+.carousel-caption a {
+    text-decoration: none;
+}
+
+.carousel-caption a:hover {
+    color: orange;
+}
+
+#carouselExampleCaptions {
+    margin-bottom: 20px;
+}

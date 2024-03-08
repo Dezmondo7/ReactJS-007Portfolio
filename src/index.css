@@ -1,12 +1,11 @@
 * {
     box-sizing: border-box;
     text-decoration: none;
-
   }
   
   body {
-    background-color: #FFFDD0;
-    background-image: url("");
+    background-color:  	#FAF9F6;
+    background-image: url();
     height: 100vh;
     color: #d9c9ee;
   }

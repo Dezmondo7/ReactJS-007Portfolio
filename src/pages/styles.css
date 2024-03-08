@@ -1,3 +1,8 @@
+
+body {
+  background-color: #FFFDD0;
+}
+
 .card-title a {
     font-size: 10rem;
     text-decoration: none;
@@ -33,7 +38,7 @@
 
   .container {
     background-color: black;
-    border-radius: 2.5%;
+    border-radius: 1rem;
     margin-top: 20px;
   }
 
@@ -48,4 +53,10 @@
     text-decoration: none;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  @media only screen and (max-width: 612px) {
+    .container {
+      border-radius: 0;
+    }
   }

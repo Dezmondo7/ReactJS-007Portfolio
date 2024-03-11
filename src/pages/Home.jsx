@@ -83,7 +83,7 @@ function Home() {
                   <p class="mb-0 text-neutral-500 dark:text-neutral-300">
                     I've been interested in technology and gaming as long as I can
                     remember,
-                    the PC and X-box are my favorite gaming consoles. My creativity & attention to detail allows me to develop wireframes into visually appealing responsive designs written with clean code. I find enjoyment in picking up new technologies and
+                    the PC and X-box are my favourite gaming consoles. My creativity & attention to detail allows me to develop wireframes into visually appealing responsive designs written with clean code. I find enjoyment in picking up new technologies and
                     building cool projects.
                     <ul><li><br></br></li>
                       <li>Level 1 Cybersecurity</li>

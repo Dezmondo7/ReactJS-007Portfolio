@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    color: black;
+}
+
+.pageContainer {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+h1 {
+    color: aqua;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}

@@ -20,7 +20,7 @@ function Home() {
                     Welcome to my  <br /><span class="text-primary">ReactJS Portfolio</span>
                   </h1>
                   <a class="mb-2 inline-block rounded bg-primary px-12 pt-4 pb-3.5 text-sm font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] md:mr-2 md:mb-0"
-                    data-te-ripple-init data-te-ripple-color="light" href="https://docs.google.com/document/d/198GZtFk6SS9Jpw8MPSsGV7cVyiEjQ_J-BoCSKwF93-c/edit?usp=sharing" role="button">&nbsp;&nbsp;View CV&nbsp;&nbsp;</a>
+                    data-te-ripple-init data-te-ripple-color="light" href="https://docs.google.com/document/d/198GZtFk6SS9Jpw8MPSsGV7cVyiEjQ_J-BoCSKwF93-c/edit?usp=sharing" target="_blank" role="button">&nbsp;&nbsp;View CV&nbsp;&nbsp;</a>
                 </div>
               </div>
               <div class="md:mb-12 lg:mb-0">
@@ -46,7 +46,7 @@ function Home() {
                   <h2 class="mb-8 text-3xl font-bold">Dale Warburton</h2>
                   <i class="fa-brands fa-html5 fa-2xl"></i><i class="fa-brands fa-css3-alt fa-2xl"></i><i class="fa-brands fa-js fa-2xl"></i><i class="fa-brands fa-python fa-2xl"></i><i class="fa-brands fa-node-js fa-2xl"></i><i class="fa-brands fa-bootstrap fa-2xl"></i><i class="fa-brands fa-react fa-2xl"></i>
                   <p class="mb-8 pb-2 text-neutral-500 dark:text-neutral-300 lg:pb-0">
-                    HTML5, CSS3, JavaScript, ES6, Python, JQuery, NodeJS, ReactJS, Bootstrap, Tailwind, Canva, Git.
+                    HTML5, CSS3, JavaScript, ES6, Python, JQuery, NodeJS, ReactJS, Bootstrap, Tailwind, Canva, Kanban, Agile, Git.
                   </p>
 
 

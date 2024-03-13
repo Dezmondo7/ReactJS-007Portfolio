@@ -88,7 +88,7 @@ export default function Navbar() {
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="https://www.linkedin.com/in/dalewarburton1/"
+                            href="https://www.linkedin.com/in/dalewarburton1/" target="_blank"
                             className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
                           >
                            <i class="fa-brands fa-linkedin"> LinkedIN</i>
@@ -99,7 +99,7 @@ export default function Navbar() {
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="https://github.com/Dezmondo7"
+                            href="https://github.com/Dezmondo7" target="_blank"
                             className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
                           >
                             <i class="fa-brands fa-github"> GitHub</i>

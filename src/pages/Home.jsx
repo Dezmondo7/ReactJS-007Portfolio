@@ -91,6 +91,7 @@ function Home() {
                       <li>Level 2 Using Collaborative Technologies (ITQ)</li>
                       <li>Level 2 IT User Skills (Open Systems and Enterprise) (ITQ)</li>
                       <li>2024 Ed-X Front-End Engineer Bootcamp Alumni</li>
+                      <li>BA (Hons) 2:1 Journalism University of Central Lancs </li>
                     </ul>
                   </p>
                 </div>

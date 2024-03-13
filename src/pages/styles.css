@@ -58,6 +58,10 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 
+  .mb-12 a:hover {
+    color: orange;
+  }
+  
   .mx-auto {
     margin-bottom: 20px;
   }

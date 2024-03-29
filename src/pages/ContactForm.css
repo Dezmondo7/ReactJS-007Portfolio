@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+.container .x5 {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.form {
+    margin: auto;
+}

@@ -3,9 +3,10 @@
     margin: 0;
 }
 
-.pageContainer {
+.Container {
     min-height: 100vh;
     display: flex;
+    flex: 1;
     flex-direction: column;
     width: 100%;
 }

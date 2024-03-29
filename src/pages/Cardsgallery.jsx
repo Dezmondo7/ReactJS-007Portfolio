@@ -5,7 +5,7 @@ import projectData from './Projects.json';
 
 function Cardsgallery() {
     return( 
-      <div className="pageContainer">
+      <div className="Container">
       <div className="pageWrapper">
         <div className="title">
           <h1>Projects</h1>

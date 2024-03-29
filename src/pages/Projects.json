@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Curated",
-        "image": "",
+        "image": "../../images/Curated.png",
         "deployed": "https://curatedcanvas.netlify.app/",
         "gitHub": "https://github.com/yrezvani/curated",
         "description": "This was a team project that utalises the HARVARD API. The site uses Tailwind, and React libraries: slick, lazyloading and email.js."

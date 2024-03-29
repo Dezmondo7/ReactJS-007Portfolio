@@ -48,9 +48,14 @@ const ContactForm = () => {
   }
 
   return (
+<<<<<<< HEAD
     <div class="d-flex justify-content-center"> 
     <div class="container">
     <form class="form"
+=======
+    <div class="container">
+    <form
+>>>>>>> 0f4f24c177deae3118a8bb266cac930e57c4da31
       action={FORM_ENDPOINT}
       onSubmit={handleSubmit}
       method="POST"
@@ -69,7 +74,10 @@ const ContactForm = () => {
       </div>
     </form>
     </div>
+<<<<<<< HEAD
     </div>
+=======
+>>>>>>> 0f4f24c177deae3118a8bb266cac930e57c4da31
   );
 };
 

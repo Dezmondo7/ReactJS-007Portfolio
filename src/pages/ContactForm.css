@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 .container .x5 {
     margin-bottom: 10px;
     display: flex;
@@ -11,4 +12,8 @@
 
 .form {
     margin: auto;
+=======
+.conatainer {
+    justify-content: center;
+>>>>>>> 0f4f24c177deae3118a8bb266cac930e57c4da31
 }

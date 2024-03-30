@@ -6,7 +6,7 @@ import projectData from './Projects.json';
 function Cardsgallery() {
     return( 
       <div className="Container">
-      <div className="pageWrapper">
+      <div className="Wrapper">
         <div className="title">
           <h1>Projects</h1>
         </div>  
@@ -14,7 +14,8 @@ function Cardsgallery() {
           <p>The projects below are a number of projects that I have completed</p>
         </div>
 
-        <div className="cardContainer">
+        <div className="container wide">
+          <div className="innercontainer">
           {projectData.map((project) => (
             <Cardholder 
             key={project.id}
@@ -26,6 +27,7 @@ function Cardsgallery() {
             description={project.description}
           />
           ))}
+          </div>
       
         </div>
       </div>

@@ -1,84 +1,47 @@
-import React, { useState } from "react";
-import '../pages/ContactForm.css';
-
-const FORM_ENDPOINT = "https://herotofu.com/start"; // TODO - update to the correct endpoint
+import { useState } from 'react';
+import emailjs from '@emailjs/browser';
 
 const ContactForm = () => {
-  const [submitted, setSubmitted] = useState(false);
-  const handleSubmit = (e) => {
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [stateMessage, setStateMessage] = useState(null);  const sendEmail = (e) => {
+    e.persist();
     e.preventDefault();
-
-    const inputs = e.target.elements;
-    const data = {};
-
-    for (let i = 0; i < inputs.length; i++) {
-      if (inputs[i].name) {
-        data[inputs[i].name] = inputs[i].value;
-      }
-    }
-
-    fetch(FORM_ENDPOINT, {
-      method: 'POST',
-      headers: {
-        Accept: 'application/json',
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(data),
-    })
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error('Form response was not ok');
+    setIsSubmitting(true);    emailjs
+      .sendForm(
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
+        e.target,
+        process.env.REACT_APP_PUBLIC_KEY
+      )
+      .then(
+        (result) => {
+          setStateMessage('Message sent!');
+          setIsSubmitting(false);
+          setTimeout(() => {
+            setStateMessage(null);
+          }, 5000); // hide message after 5 seconds
+        },
+        (error) => {
+          setStateMessage('Something went wrong, please try again later');
+          setIsSubmitting(false);
+          setTimeout(() => {
+            setStateMessage(null);
+          }, 5000); // hide message after 5 seconds
         }
-
-        setSubmitted(true);
-      })
-      .catch((err) => {
-        // Submit the form manually
-        e.target.submit();
-      });
-  };
-
-  if (submitted) {
-    return (
-      <>
-        <h2>Thank you!</h2>
-        <div>We'll be in touch soon.</div>
-      </>
-    );
-  }
-
-  return (
-<<<<<<< HEAD
-    <div class="d-flex justify-content-center"> 
-    <div class="container">
-    <form class="form"
-=======
-    <div class="container">
-    <form
->>>>>>> 0f4f24c177deae3118a8bb266cac930e57c4da31
-      action={FORM_ENDPOINT}
-      onSubmit={handleSubmit}
-      method="POST"
-    >
-      <div>
-        <input type="text" placeholder="Your name" name="name" required />
-      </div>
-      <div>
-        <input type="email" placeholder="Email" name="email" required />
-      </div>
-      <div>
-        <textarea placeholder="Your message" name="message" required />
-      </div>
-      <div>
-        <button type="submit"> Send a message </button>
-      </div>
+      );
+    
+    // Clears the form after sending the email
+    e.target.reset();
+  };  return (
+    <form onSubmit={sendEmail}>
+      <label>Name</label>
+      <input type="text" name="user_name" />
+      <label>Email</label>
+      <input type="email" name="user_email" />
+      <label>Message</label>
+      <textarea name="message" />
+      <input type="submit" value="Send" disabled={isSubmitting} />
+      {stateMessage && <p>{stateMessage}</p>}
     </form>
-    </div>
-<<<<<<< HEAD
-    </div>
-=======
->>>>>>> 0f4f24c177deae3118a8bb266cac930e57c4da31
   );
-};
-
-export default ContactForm;
+};export default ContactForm;

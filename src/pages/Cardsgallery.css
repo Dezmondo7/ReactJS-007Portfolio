@@ -7,8 +7,9 @@
     min-height: 100vh;
     display: flex;
     flex: 1;
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
+    justify-content: center;
 }
 
 h1 {
@@ -17,4 +18,9 @@ h1 {
     text-align: center;
     justify-content: center;
     width: 100%;
+}
+
+.innercontainer {
+    display: flex;
+    
 }

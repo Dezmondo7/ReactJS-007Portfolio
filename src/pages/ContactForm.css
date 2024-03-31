@@ -1,14 +1,23 @@
 .contactForm {
-    background-color: beige;
+    background-color: #FAF9F6;
     margin-top: 100px;
 }
 
 .body {
-    background-color: beige;
+    background-color: #FAF9F6;
     min-height: 100vh;
 }
 
 #form-back {
-    background-color: beige;
+    background-color: #FAF9F6;
 }
+
+.btn-primary:hover {
+    color: orange;
+}
+
+.row {
+    margin: 10px 10px;
+}
+
 

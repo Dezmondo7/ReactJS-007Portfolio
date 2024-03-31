@@ -30,7 +30,7 @@ function Projects() {
             <div className="carousel-caption d-none d-md-block">
             <button type="button" class="btn btn-dark"><a href="https://dezmondo7.github.io/movie-recommender/" target="_blank">FlickFinder  <i class="fa-solid fa-arrow-pointer"></i></a></button>
               <p>Code Crusaders project built using HTML5, CSS3, JavaScript & API's.</p>
-              <a href=""><i class="fa-brands fa-github fa-2xl"></i></a>
+              <a href="https://github.com/Dezmondo7/movie-recommender?tab=readme-ov-file" target="_blank"><i class="fa-brands fa-github fa-2xl"></i></a>
             </div>
           </div>
           <div className="carousel-item">
@@ -38,7 +38,7 @@ function Projects() {
             <div className="carousel-caption d-none d-md-block">
             <button type="button" class="btn btn-dark"><a href="https://curatedcanvas.netlify.app/ ." target="_blank">Curated  <i class="fa-solid fa-arrow-pointer"></i></a></button>
               <p>Code Crusaders project built using Harvard API, HTML5, CSS3 & Tailwind</p>
-              <a href="https://github.com/yrezvani/curated?tab=readme-ov-file" target=" blank"><i class="fa-brands fa-github fa-2xl"></i></a>
+              <button type="button"><a href="https://github.com/yrezvani/curated?tab=readme-ov-file" target="_blank"><i class="fa-brands fa-github fa-2xl"></i></a></button>
             </div>
           </div>
         </div>

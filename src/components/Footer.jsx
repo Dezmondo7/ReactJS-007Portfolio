@@ -13,7 +13,7 @@ function Footer() {
                         </a>
                     </div>
                     <div className="px-4 py-2">
-                        <a href="/explorer" className="text-base leading-6">
+                        <a href="#/About" className="text-base leading-6">
                             About
                         </a>
                     </div>
@@ -23,11 +23,11 @@ function Footer() {
                 </a>
                     </div>*/}
                     <div className="px-4 py-2">
-                        <a href="/projects" className="text-base leading-6">
+                        <a href="#/projects" className="text-base leading-6">
                             Projects
                         </a> </div>
                     <div className="px-4 py-2">
-                        <a href="contact/*" className="text-base leading-6">
+                        <a href="#/Contact" className="text-base leading-6">
                             Contact
                         </a>
                     </div>

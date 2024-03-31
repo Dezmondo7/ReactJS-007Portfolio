@@ -28,7 +28,7 @@ function Projects() {
           <div className="carousel-item">
             <img src={ironman} className="d-block w-100 h-50" alt="..." />
             <div className="carousel-caption d-none d-md-block">
-            <button type="button" class="btn btn-dark"><a href="#">FlickFinder  <i class="fa-solid fa-arrow-pointer"></i></a></button>
+            <button type="button" class="btn btn-dark"><a href="https://dezmondo7.github.io/movie-recommender/" target="_blank">FlickFinder  <i class="fa-solid fa-arrow-pointer"></i></a></button>
               <p>Code Crusaders project built using HTML5, CSS3, JavaScript & API's.</p>
               <a href=""><i class="fa-brands fa-github fa-2xl"></i></a>
             </div>
@@ -36,7 +36,7 @@ function Projects() {
           <div className="carousel-item">
             <img src={Curated} className="d-block w-100 h-25" alt="Image of the Curated application home page" />
             <div className="carousel-caption d-none d-md-block">
-            <button type="button" class="btn btn-dark"><a href="https://curatedcanvas.netlify.app/" target="_blank">Curated  <i class="fa-solid fa-arrow-pointer"></i></a></button>
+            <button type="button" class="btn btn-dark"><a href="https://curatedcanvas.netlify.app/ ." target="_blank">Curated  <i class="fa-solid fa-arrow-pointer"></i></a></button>
               <p>Code Crusaders project built using Harvard API, HTML5, CSS3 & Tailwind</p>
               <a href="https://github.com/yrezvani/curated?tab=readme-ov-file" target=" blank"><i class="fa-brands fa-github fa-2xl"></i></a>
             </div>

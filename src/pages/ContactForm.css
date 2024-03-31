@@ -1,19 +1,14 @@
-* {
-    box-sizing: border-box;
+.contactForm {
+    background-color: beige;
+    margin-top: 100px;
 }
 
-<<<<<<< HEAD
-.container .x5 {
-    margin-bottom: 10px;
-    display: flex;
-    justify-content: center;
-    background-color: transparent;
+.body {
+    background-color: beige;
+    min-height: 100vh;
 }
 
-.form {
-    margin: auto;
-=======
-.conatainer {
-    justify-content: center;
->>>>>>> 0f4f24c177deae3118a8bb266cac930e57c4da31
+#form-back {
+    background-color: beige;
 }
+

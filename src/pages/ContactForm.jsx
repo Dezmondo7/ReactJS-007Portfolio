@@ -1,9 +1,12 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import emailjs from '@emailjs/browser';
 import '../pages/contactForm.css';
 
-
+//Created keys using EmailJS 
+const REACT_APP_SERVICE_ID = "service_fxbox86";
+const REACT_APP_TEMPLATE_ID = "template_wwjqefj";
+const REACT_APP_PUBLIC_KEY = "zDtYRtCYE5DF5euta";
 
 const ContactForm = () => {
   const {
@@ -45,11 +48,12 @@ const ContactForm = () => {
         message
       };
 
+      //Removed Process.env and directly implemented the SERVICE ID, TEMPLATE ID and PUBLIC KEY
       await emailjs.send(
-        process.env.REACT_APP_SERVICE_ID,
-        process.env.REACT_APP_TEMPLATE_ID,
+        REACT_APP_SERVICE_ID,
+        REACT_APP_TEMPLATE_ID,
         templateParams,
-        process.env.REACT_APP_USER_ID
+        REACT_APP_PUBLIC_KEY
       );
 
      // Display success alert

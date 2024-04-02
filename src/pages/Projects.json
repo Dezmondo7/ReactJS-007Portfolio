@@ -1,11 +1,12 @@
 [
     {
         "id": 1,
-        "name": "Curated",
-        "image": "../../images/Curated.png",
-        "deployed": "https://curatedcanvas.netlify.app/",
-        "gitHub": "https://github.com/yrezvani/curated",
-        "description": "This was a team project that utalises the HARVARD API. The site uses Tailwind, and React libraries: slick, lazyloading and email.js."
+        "name": "Bootstrap Portfolio",
+        "image": "",
+        "deployed": "https://dezmondo7.github.io/Bootstrap-Portfolio/",
+        "gitHub": "https://github.com/Dezmondo7/Bootstrap-Portfolio",
+        "description": "Designed a Bootstrap portfolio to replicate the site I built using HTML and CSS"
+        
     },
     {
         "id": 2,
@@ -17,11 +18,12 @@
     },
     {
         "id": 3,
-        "name": "Bootstrap Portfolio",
-        "image": "",
-        "deployed": "https://dezmondo7.github.io/Bootstrap-Portfolio/",
-        "gitHub": "https://github.com/Dezmondo7/Bootstrap-Portfolio",
-        "description": "Designed a Bootstrap portfolio to replicate the site I built using HTML and CSS"
+        "name": "Curated",
+        "image": "../../images/Curated.png",
+        "deployed": "https://curatedcanvas.netlify.app/",
+        "gitHub": "https://github.com/yrezvani/curated",
+        "description": "This was a team project that utalises the HARVARD API. The site uses Tailwind, and React libraries: slick, lazyloading and email.js."
+     
     },
     {
         "id": 4,
@@ -29,7 +31,7 @@
         "image": "",
         "deployed": "",
         "gitHub": "https://github.com/Dezmondo7/WeatherDashboard",
-        "description": "This weather site uses the Open Weather Map API to show the forecast in different cities for the next five days. Users empty the city, or choose from their recent searches and the current and future weather data displays."
+        "description": "Open Weather Map API to show the forecast in different cities for the next five days. Users empty the city, or choose from their recent searches and the current and future weather data displays."
     },
     {
         "id": 5,

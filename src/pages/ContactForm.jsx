@@ -61,7 +61,7 @@ const ContactForm = () => {
     } catch (e) {
       console.error(e);
       // Display error alert
-      toggleAlert('Uh oh. Something went wrong.', 'danger');
+      toggleAlert('Uh oh. Something went wrong.');
     } finally {
       // Re-enable form submission
       setDisabled(false);
@@ -148,7 +148,7 @@ const ContactForm = () => {
                     {errors.message && <span className='errorMessage'>Please enter a message</span>}
                   </div>
                 </div>
-                <button className='btn btn-primary' type='submit'>
+                <button className='btn btn-dark' type='submit'>
                   Submit
                 </button>
               </form>

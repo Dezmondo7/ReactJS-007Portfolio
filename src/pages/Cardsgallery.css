@@ -3,15 +3,6 @@
     margin: 0;
 }
 
-.Container {
-    min-height: 100vh;
-    display: flex;
-    flex: 1;
-    flex-direction: row;
-    width: 100%;
-    justify-content: center;
-}
-
 h1 {
     color: aqua;
     display: flex;
@@ -21,6 +12,12 @@ h1 {
 }
 
 .innercontainer {
-    display: flex;
-    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 0.75rem;
+    margin: auto;
+}
+
+#container-bcg {
+    margin-bottom: 20px;
 }

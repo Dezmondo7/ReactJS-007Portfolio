@@ -25,3 +25,7 @@ a {
 .fa-brands .fa-github .fa-2xl a:hover {
     color: orange;
 }
+
+.length {
+    min-height: 100vh;
+}

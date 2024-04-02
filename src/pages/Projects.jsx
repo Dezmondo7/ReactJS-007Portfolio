@@ -1,10 +1,10 @@
 import React from "react";
-import Netflix from "../images/netflix_tv.avif";
+import Netflix from "../images/netflix-resized.png";
 import Bootrap2 from "../images/BS2.jpg";
 import './Projects.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ironman from '../images/ironman-venom.png';
-import Curated from '../images/Curated1.png';
+import Curated from '../images/gallery-s.png';
 
 
 function Projects() {

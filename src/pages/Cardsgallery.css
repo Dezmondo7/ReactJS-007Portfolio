@@ -16,15 +16,15 @@ h1 {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 0.75rem;
     margin: auto;
-    background-color: aqua;
+     background-color: #FFFDD0;
 }
 
 #container-bcg {
     margin-bottom: 20px;
-    background-color: aqua;
+     background-color: #FFFDD0;
 }
 
 .wrapper {
-    background-color: aqua;
+     background-color: #FFFDD0;
 }
 

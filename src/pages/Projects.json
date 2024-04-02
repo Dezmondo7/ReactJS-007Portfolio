@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Bootstrap Portfolio",
-        "image": "",
+        "image": "../../images/jjscalc.avif",
         "deployed": "https://dezmondo7.github.io/Bootstrap-Portfolio/",
         "github": "https://github.com/Dezmondo7/Bootstrap-Portfolio",
         "description": "Designed a Bootstrap portfolio to replicate the site I built using HTML and CSS"
@@ -14,7 +14,7 @@
         "image": "",
         "deployed": "https://dezmondo7.github.io/movie-recommender/",
         "github": "https://github.com/Dezmondo7/movie-recommender",
-        "description": "This group project uses mutliple APIs to create a movie recommender website. The user chooses a film they've enjoyed, confirms their selection, and then are presented with a series of recommended films that they can add to their watchlist."
+        "description": "This group project uses mutliple APIs to create a movie recommender website."
     },
     {
         "id": 3,
@@ -22,7 +22,7 @@
         "image": "../../images/Curated.png",
         "deployed": "https://curatedcanvas.netlify.app/",
         "github": "https://github.com/yrezvani/curated",
-        "description": "This was a team project that utalises the HARVARD API. The site uses Tailwind, and React libraries: slick, lazyloading and email.js."
+        "description": "This was a team project that utalises the HARVARD API, Tailwind, React slick, lazyloading and email.js."
      
     },
     {

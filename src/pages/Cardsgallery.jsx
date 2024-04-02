@@ -7,7 +7,7 @@ function Cardsgallery() {
     return( 
       <div className="container" id="container-bcg">
         <div className="title">
-          <h1>Projects</h1>
+          {/*<h1>Projects</h1>*/}
         </div>  
 
         <div className="container wide" id="container-bcg"> 

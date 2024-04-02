@@ -9,6 +9,7 @@ a {
 .container {
     height: 100%;
 }
+
 .carousel-caption a {
     text-decoration: none;
 }
@@ -28,4 +29,8 @@ a {
 
 .length {
     min-height: 100vh;
+}
+
+.carousel-item {
+    border-radius: 2rem;
 }

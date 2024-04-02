@@ -4,7 +4,7 @@
 }
 
 h1 {
-    color: aqua;
+    color: blue;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -16,8 +16,15 @@ h1 {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 0.75rem;
     margin: auto;
+    background-color: aqua;
 }
 
 #container-bcg {
     margin-bottom: 20px;
+    background-color: aqua;
 }
+
+.wrapper {
+    background-color: aqua;
+}
+

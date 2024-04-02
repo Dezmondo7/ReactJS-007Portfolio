@@ -5,8 +5,7 @@ import projectData from './Projects.json';
 
 function Cardsgallery() {
     return( 
-      <div className="container">
-      <div className="wrapper">
+      <div className="container" id="container-bcg">
         <div className="title">
           <h1>Projects</h1>
         </div>  
@@ -27,7 +26,6 @@ function Cardsgallery() {
           </div>
       
         </div>
-      </div>
       </div>
     );
 }

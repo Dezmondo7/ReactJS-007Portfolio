@@ -29,7 +29,7 @@ function Projects() {
             <div className="carousel-item">
               <img src={Netflix} className="d-block w-100 h-50" alt="..." />
               <div className="carousel-caption d-none d-md-block">
-                <button type="button" class="btn btn-dark"><a href="https://dezmondo7.github.io/Bootstrap-Portfolio/netflix.html" target="_blank">FlickFinder  <i class="fa-solid fa-arrow-pointer"></i></a></button>
+                <button type="button" class="btn btn-dark"><a href="https://dezmondo7.github.io/Bootstrap-Portfolio/netflix.html" target="_blank">Netflix Clone  <i class="fa-solid fa-arrow-pointer"></i></a></button>
                 <p>This was my very first project, Site built using HTML5, CSS3 & JavaScript.</p>
                 <a href="" target="_blank"><i class="fa-brands fa-github fa-2xl"></i></a>
               </div>

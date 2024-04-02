@@ -1,4 +1,15 @@
 .card {
     margin: auto;
     margin-bottom: 20px;
+    background-color: aliceblue;
+}
+
+.in-line {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.card-body a {
+    text-decoration: none;
 }

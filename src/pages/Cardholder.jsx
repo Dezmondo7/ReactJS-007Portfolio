@@ -9,8 +9,10 @@ function Cardholder(props) {
                 <div className="card-body">
                     <h5 className="card-title">{props.name}</h5>
                     <p className="card-text">{props.description}</p>
-                    <a href=""><i class="fa-brands fa-github fa-2xl"></i></a>
-                    
+                    <div class="in-line">
+                    <a href={props.github} target="_blank"><i class="fa-brands fa-github fa-2xl"></i><p>Github</p></a> &nbsp; &nbsp; &nbsp;
+                    <a href={props.deployed} target="_blank"><i class="fa-solid fa-globe fa-2xl"></i><p>Deployed Site</p></a> 
+                    </div>                   
                 </div>
             </div>
     )

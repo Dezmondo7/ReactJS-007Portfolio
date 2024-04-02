@@ -4,7 +4,7 @@
         "name": "Bootstrap Portfolio",
         "image": "",
         "deployed": "https://dezmondo7.github.io/Bootstrap-Portfolio/",
-        "gitHub": "https://github.com/Dezmondo7/Bootstrap-Portfolio",
+        "github": "https://github.com/Dezmondo7/Bootstrap-Portfolio",
         "description": "Designed a Bootstrap portfolio to replicate the site I built using HTML and CSS"
         
     },
@@ -13,7 +13,7 @@
         "name": "FlickFinder",
         "image": "",
         "deployed": "https://dezmondo7.github.io/movie-recommender/",
-        "gitHub": "https://github.com/Dezmondo7/movie-recommender",
+        "github": "https://github.com/Dezmondo7/movie-recommender",
         "description": "This group project uses mutliple APIs to create a movie recommender website. The user chooses a film they've enjoyed, confirms their selection, and then are presented with a series of recommended films that they can add to their watchlist."
     },
     {
@@ -21,7 +21,7 @@
         "name": "Curated",
         "image": "../../images/Curated.png",
         "deployed": "https://curatedcanvas.netlify.app/",
-        "gitHub": "https://github.com/yrezvani/curated",
+        "github": "https://github.com/yrezvani/curated",
         "description": "This was a team project that utalises the HARVARD API. The site uses Tailwind, and React libraries: slick, lazyloading and email.js."
      
     },
@@ -30,7 +30,7 @@
         "name": "Weather Dashboard",
         "image": "",
         "deployed": "",
-        "gitHub": "https://github.com/Dezmondo7/WeatherDashboard",
+        "github": "https://github.com/Dezmondo7/WeatherDashboard",
         "description": "Open Weather Map API to show the forecast in different cities for the next five days. Users empty the city, or choose from their recent searches and the current and future weather data displays."
     },
     {
@@ -38,7 +38,7 @@
         "name": "Python Adventure Game",
         "image": "",
         "deployed": "",
-        "gitHub": "https://github.com/Dezmondo7/Python",
+        "github": "https://github.com/Dezmondo7/Python",
         "description": "This was a group project to develop an adventure using Python programming."
     },
     {
@@ -46,7 +46,7 @@
         "name": "JavaScript Quiz",
         "image": "",
         "deployed": "https://dezmondo7.github.io/JavaScript-Quiz/",
-        "gitHub": "https://github.com/Dezmondo7/JavaScript-Quiz",
+        "github": "https://github.com/Dezmondo7/JavaScript-Quiz",
         "description": "This is a site built using Dayjs to create a responsive daily planner. It allows users to see the current time and log events throughout the day, past events display in a different colour."
     }
 ]

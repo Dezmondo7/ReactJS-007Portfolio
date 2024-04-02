@@ -5,24 +5,24 @@
         "image": "../../images/jjscalc.avif",
         "deployed": "https://dezmondo7.github.io/Bootstrap-Portfolio/",
         "github": "https://github.com/Dezmondo7/Bootstrap-Portfolio",
-        "description": "Designed a Bootstrap portfolio to replicate the site I built using HTML and CSS"
+        "description": "Designed a Bootstrap portfolio to replicate the site I built using HTML5 and CSS3"
         
     },
     {
         "id": 2,
-        "name": "FlickFinder",
+        "name": "HTML & CSS Portfolio",
         "image": "",
-        "deployed": "https://dezmondo7.github.io/movie-recommender/",
-        "github": "https://github.com/Dezmondo7/movie-recommender",
-        "description": "This group project uses mutliple APIs to create a movie recommender website."
+        "deployed": "https://dezmondo7.github.io/007Portfolio/",
+        "github": "https://github.com/Dezmondo7/007Portfolio",
+        "description": "Portfolio designed & built using custom HTML5 & CSS3 based off a wireframe."
     },
     {
         "id": 3,
-        "name": "Curated",
-        "image": "../../images/Curated.png",
-        "deployed": "https://curatedcanvas.netlify.app/",
-        "github": "https://github.com/yrezvani/curated",
-        "description": "This was a team project that utalises the HARVARD API, Tailwind, React slick, lazyloading and email.js."
+        "name": "Team Profile Generator",
+        "image": "",
+        "deployed": "",
+        "github": "https://github.com/Dezmondo7/TeamGenerator",
+        "description": "NodeJS, FS & Inquirer project using object oriented programming to gather data."
      
     },
     {
@@ -31,7 +31,7 @@
         "image": "",
         "deployed": "",
         "github": "https://github.com/Dezmondo7/WeatherDashboard",
-        "description": "Open Weather Map API to show the forecast in different cities for the next five days. Users empty the city, or choose from their recent searches and the current and future weather data displays."
+        "description": "Weather Dashboard, using JavaScript and API to gather weather information from Cities."
     },
     {
         "id": 5,
@@ -39,7 +39,7 @@
         "image": "",
         "deployed": "",
         "github": "https://github.com/Dezmondo7/Python",
-        "description": "This was a group project to develop an adventure using Python programming."
+        "description": "This was a team project where we developed an adventure using Python programming."
     },
     {
         "id": 6,
@@ -47,6 +47,6 @@
         "image": "",
         "deployed": "https://dezmondo7.github.io/JavaScript-Quiz/",
         "github": "https://github.com/Dezmondo7/JavaScript-Quiz",
-        "description": "This is a site built using Dayjs to create a responsive daily planner. It allows users to see the current time and log events throughout the day, past events display in a different colour."
+        "description": "Quiz designed using JavaScript programming to create a multiple choice quiz."
     }
 ]

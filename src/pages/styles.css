@@ -3,9 +3,9 @@ body {
 }
 
 
-.top-image {
+/*.top-image {
   margin-top: -40px;
-}
+}*/
 
 .card-title a {
     font-size: 10rem;
@@ -20,6 +20,7 @@ body {
     font-weight: bold;
     color: white;
     padding-top: 20px;
+    margin-top: -40px;
   }
   
   .bottom-right {
@@ -33,7 +34,7 @@ body {
   }
 
   img {
-    height: 200px;
+    height: 140px;
   }
 
   .md:w-20 {
@@ -58,6 +59,10 @@ body {
     text-decoration: none;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .mb-40 {
+    margin-top: -20px;
   }
 
   .mx-auto {

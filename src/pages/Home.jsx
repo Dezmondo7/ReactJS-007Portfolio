@@ -133,9 +133,98 @@ function Home() {
           </div>
         </div>
       </div>
-   </div>
+      {/* Desireables section about me */}
+      <div class="container my-24 mx-auto md:px-6">
 
-   
+        <section class="mb-32 text-center">
+          <div class="flex justify-center">
+            <div class="max-w-[700px] text-center">
+              {/*<h2 class="mb-6 text-center text-3xl font-bold">
+                Why is it so<u class="text-primary dark:text-primary-400">
+                  great?</u>
+              </h2>
+              <p class="mb-16 text-neutral-500 dark:text-neutral-300">
+                Minus fuga aliquid vero facere ducimus quos, quisquam nemo?
+                Molestias ullam provident vitae error aliquam dolorum temporibus?
+                Doloremque, quasi
+  </p>*/}
+            </div>
+          </div>
+
+          <div class="grid gap-x-6 md:grid-cols-2 lg:grid-cols-4 lg:gap-x-12">
+            <div class="mb-12 lg:mb-0">
+              <div class="mb-6 inline-block rounded-full bg-primary-100 p-4 text-primary shadow-sm">
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.03v13m0-13c-2.819-.831-4.715-1.076-8.029-1.023A.99.99 0 0 0 3 6v11c0 .563.466 1.014 1.03 1.007 3.122-.043 5.018.212 7.97 1.023m0-13c2.819-.831 4.715-1.076 8.029-1.023A.99.99 0 0 1 21 6v11c0 .563-.466 1.014-1.03 1.007-3.122-.043-5.018.212-7.97 1.023" />
+                </svg>
+              </div>
+              <h5 class="mb-4 text-lg font-bold">Design</h5>
+              <p class="text-neutral-500 dark:text-neutral-300">
+                I value simple design patterns & use clean code to create attractive design features. 
+              </p>
+              <h5 class="mb-4 text-lg font-bold">Things I enjoy designing</h5>
+              <p class="text-neutral-500 dark:text-neutral-300">
+                UI, UX, Web & Apps.
+              </p>
+              <h5 class="mb-4 text-lg font-bold">Design tools</h5>
+              <p>Canva</p>
+              <p>Figma</p>
+              <p>Pen & Paper</p>
+              
+            </div>
+
+            <div class="mb-12 lg:mb-0">
+              <div class="mb-6 inline-block rounded-full bg-primary-100 p-4 text-primary shadow-sm">
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m8 8-4 4 4 4m8 0 4-4-4-4m-2-3-4 14" />
+                </svg>
+
+              </div>
+              <h5 class="mb-4 text-lg font-bold">Safe and solid</h5>
+              <p class="text-neutral-500 dark:text-neutral-300">
+                Eum nostrum fugit numquam, voluptates veniam neque quibusdam ullam
+                aspernatur odio soluta, quisquam dolore animi
+              </p>
+            </div>
+
+            <div class="mb-12 md:mb-0">
+              <div class="mb-6 inline-block rounded-full bg-primary-100 p-4 text-primary shadow-sm">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                  stroke="currentColor" class="h-6 w-6">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 01-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 00-3.213-9.193 2.056 2.056 0 00-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 00-10.026 0 1.106 1.106 0 00-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12" />
+                </svg>
+              </div>
+              <h5 class="mb-4 text-lg font-bold">Extremely fast</h5>
+              <p class="text-neutral-500 dark:text-neutral-300">
+                Enim cupiditate, minus nulla dolor cumque iure eveniet facere
+                ullam beatae hic voluptatibus dolores exercitationem
+              </p>
+            </div>
+
+            <div class="mb-12 md:mb-0">
+              <div class="mb-6 inline-block rounded-full bg-primary-100 p-4 text-primary shadow-sm">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                  stroke="currentColor" class="h-6 w-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6a7.5 7.5 0 107.5 7.5h-7.5V6z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 10.5H21A7.5 7.5 0 0013.5 3v7.5z" />
+                </svg>
+              </div>
+              <h5 class="mb-4 text-lg font-bold">Live analytics</h5>
+              <p class="text-neutral-500 dark:text-neutral-300">
+                Illum doloremque ea, blanditiis sed dolor laborum praesentium
+                maxime sint, consectetur atque ipsum ab adipisci
+              </p>
+            </div>
+          </div>
+        </section>
+
+      </div>
+
+
+    </div>
+
+
 
   );
 }

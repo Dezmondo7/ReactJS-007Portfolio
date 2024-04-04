@@ -45,7 +45,7 @@ function Home() {
                   <h2 class="mb-8 text-3xl font-bold">Dale Warburton</h2>
                   <i class="fa-brands fa-html5 fa-2xl"></i><i class="fa-brands fa-css3-alt fa-2xl"></i><i class="fa-brands fa-js fa-2xl"></i><i class="fa-brands fa-python fa-2xl"></i><i class="fa-brands fa-node-js fa-2xl"></i><i class="fa-brands fa-bootstrap fa-2xl"></i><i class="fa-brands fa-react fa-2xl"></i>
                   <p class="mb-8 pb-2 text-neutral-500 dark:text-neutral-300 lg:pb-0">
-                    HTML5, CSS3, JavaScript, ES6, Python, JQuery, NodeJS, ReactJS, Bootstrap, Tailwind, Canva, Kanban, Agile, Git.
+                    HTML5, CSS3, JavaScript, ES6, Python, JQuery, NodeJS, ReactJS, Bootstrap, Tailwind CSS, Canva, Kanban, Agile, Git.
                   </p>
 
 
@@ -180,11 +180,22 @@ function Home() {
                 </svg>
 
               </div>
-              <h5 class="mb-4 text-lg font-bold">Safe and solid</h5>
+              <h5 class="mb-4 text-lg font-bold">Front End Developer</h5>
               <p class="text-neutral-500 dark:text-neutral-300">
-                Eum nostrum fugit numquam, voluptates veniam neque quibusdam ullam
-                aspernatur odio soluta, quisquam dolore animi
+                I like to code things from scratch and enjoy using the latest tech to create visually appealing mobile & web apps.
               </p>
+              <h5 class="mb-4 text-lg font-bold">Languages I speak</h5>
+              <p class="text-neutral-500 dark:text-neutral-300">
+                HTML5, CSS3, JavaScript, Git
+              </p>
+              <h5 class="mb-4 text-lg font-bold">Dev Tools</h5>
+              <p>ReactJS</p>
+              <p>Bootstrap</p>
+              <p>Tailwind CSS</p>
+              <p>Github</p>
+              <p>Netlify</p>
+              <p>VS Code</p>
+
             </div>
 
             <div class="mb-12 md:mb-0">

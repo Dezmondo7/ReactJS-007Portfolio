@@ -73,6 +73,15 @@ body {
     width: 18rem;
   }
 
+  /* changes the coloour of the titles
+  .mb-4 {
+    color: black
+  } */
+
+  #des-cont {
+    background-color: aqua;
+  }
+
   @media only screen and (max-width: 612px) {
     .container {
       border-radius: 1rem;

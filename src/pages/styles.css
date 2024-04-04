@@ -73,14 +73,39 @@ body {
     width: 18rem;
   }
 
-  /* changes the coloour of the titles
-  .mb-4 {
+  /* Desireable feature section 
+  .h5x {
     color: black
   } */
 
-  #des-cont {
-    background-color: aqua;
+  .feat-fullscreen {
+    background-color: white;
+    padding-top: 20px;
   }
+
+  #des-cont {
+    background-color: #d9c9ee;;
+    border: 1px solid grey;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 100%;
+  }
+
+  #des-cont p {
+    color: black
+  
+  }
+
+  #feature-title-1 {
+    color: black;
+    font-weight: 750;
+  }
+
+  #feature-title {
+    color: purple;
+  }
+
+
 
   @media only screen and (max-width: 612px) {
     .container {

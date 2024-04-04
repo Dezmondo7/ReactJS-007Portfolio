@@ -133,8 +133,10 @@ function Home() {
           </div>
         </div>
       </div>
-      {/* Desireables section about me */}
-      <div className="container my-24 mx-auto md:px-6" id="des-cont">
+
+      {/* Feature section about me */}
+      <div className="feat-fullscreen">
+      <div className="container-wide my-24 mx-auto md:px-6" id="des-cont">
 
         <section className="mb-32 text-center">
           <div className="flex justify-center">
@@ -158,16 +160,16 @@ function Home() {
                   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.03v13m0-13c-2.819-.831-4.715-1.076-8.029-1.023A.99.99 0 0 0 3 6v11c0 .563.466 1.014 1.03 1.007 3.122-.043 5.018.212 7.97 1.023m0-13c2.819-.831 4.715-1.076 8.029-1.023A.99.99 0 0 1 21 6v11c0 .563-.466 1.014-1.03 1.007-3.122-.043-5.018.212-7.97 1.023" />
                 </svg>
               </div>
-              <h5 className="mb-4 text-lg font-bold">Design</h5>
+              <h5 className="mb-4 text-lg font-bold" id="feature-title-1">Design</h5>
               <p className="text-neutral-500 dark:text-neutral-300">
                 I value simple design patterns & use clean <br /> code to create attractive design features.
               </p>
               <br />
-              <h5 className="mb-4 text-lg font-bold">Things I enjoy designing</h5>
+              <h5 className="mb-4 text-lg font-bold" id="feature-title">Things I enjoy designing</h5>
               <p className="text-neutral-500 dark:text-neutral-300">
                 UI, UX, Web & Apps.
               </p>
-              <h5 className="mb-4 text-lg font-bold">Design tools</h5>
+              <h5 className="mb-4 text-lg font-bold" id="feature-title">Design tools</h5>
               <p className="text-neutral-500 dark:text-neutral-300">Canva<br />
                 Figma <br />
                 Pen & Paper</p>
@@ -180,15 +182,15 @@ function Home() {
                 </svg>
 
               </div>
-              <h5 className="mb-4 text-lg font-bold">Front End Developer</h5>
+              <h5 className="mb-4 text-lg font-bold h5x" id="feature-title-1">Front End Developer</h5>
               <p className="text-neutral-500 dark:text-neutral-300">
                 I like to code things from scratch and enjoy <br /> using the latest tech to create visually <br />appealing mobile & web apps.
               </p>
-              <h5 className="mb-4 text-lg font-bold">Languages I speak</h5>
+              <h5 className="mb-4 text-lg font-bold" id="feature-title">Languages I speak</h5>
               <p className="text-neutral-500 dark:text-neutral-300">
                 HTML5, CSS3, JavaScript, Git
               </p>
-              <h5 className="mb-4 text-lg font-bold">Dev Tools</h5>
+              <h5 className="mb-4 text-lg font-bold" id="feature-title">Dev Tools</h5>
               <p className="text-neutral-500 dark:text-neutral-300">ReactJS<br />
                 Bootstrap <br />
                 Tailwind CSS <br />
@@ -199,28 +201,28 @@ function Home() {
 
             <div className="mb-12 md:mb-0">
               <div className="mb-6 inline-block rounded-full bg-primary-100 p-4 text-primary shadow-sm">
-                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                <svg className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
                   <path fill-rule="evenodd" d="M5.005 10.19a1 1 0 0 1 1 1v.233l5.998 3.464L18 11.423v-.232a1 1 0 1 1 2 0V12a1 1 0 0 1-.5.866l-6.997 4.042a1 1 0 0 1-1 0l-6.998-4.042a1 1 0 0 1-.5-.866v-.81a1 1 0 0 1 1-1ZM5 15.15a1 1 0 0 1 1 1v.232l5.997 3.464 5.998-3.464v-.232a1 1 0 1 1 2 0v.81a1 1 0 0 1-.5.865l-6.998 4.042a1 1 0 0 1-1 0L4.5 17.824a1 1 0 0 1-.5-.866v-.81a1 1 0 0 1 1-1Z" clip-rule="evenodd" />
                   <path d="M12.503 2.134a1 1 0 0 0-1 0L4.501 6.17A1 1 0 0 0 4.5 7.902l7.002 4.047a1 1 0 0 0 1 0l6.998-4.04a1 1 0 0 0 0-1.732l-6.997-4.042Z" />
                 </svg>
               </div>
 
-              <h5 className="mb-4 text-lg font-bold">Passion</h5>
+              <h5 className="mb-4 text-lg font-bold" id="feature-title-1">Passion</h5>
               <p className="text-neutral-500 dark:text-neutral-300">
-                I genuinly love turning ideas into aesthetically <br /> pleasing designs, I genuinly care for people < br /> 
+                I genuinly love turning ideas into aesthetically <br /> pleasing designs, I genuinly care for people < br />
                 and enjoy helping them on their craft.
               </p>
 
-              <h5 className="mb-4 text-lg font-bold">Work I enjoy</h5>
+              <h5 className="mb-4 text-lg font-bold" id="feature-title">Work I enjoy</h5>
               <p className="text-neutral-500 dark:text-neutral-300">
                 Mobile & Web Apps, Front-End
               </p>
-              <h5 className="mb-4 text-lg font-bold">Experience</h5>
+              <h5 className="mb-4 text-lg font-bold" id="feature-title">Experience</h5>
               <p className="text-neutral-500 dark:text-neutral-300">5+ Years in Technology<br />
                 Designer <br />
                 Artist <br />
                 Creativity <br />
-              </p>  
+              </p>
             </div>
 
             {/*<div className="mb-12 md:mb-0">
@@ -243,6 +245,7 @@ function Home() {
       </div>
 
 
+    </div>
     </div>
 
 

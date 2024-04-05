@@ -84,8 +84,7 @@ body {
   }
 
   #des-cont {
-    background-color: #d9c9ee;;
-    border: 1px solid grey;
+    background-color: white;
     padding-top: 40px;
     padding-bottom: 40px;
     width: 100%;
@@ -103,6 +102,11 @@ body {
 
   #feature-title {
     color: purple;
+  }
+
+  /*SVG */
+  .mb-12 .rounded-full {
+    background-color: rgba(180, 184, 255, 1);
   }
 
 

@@ -195,8 +195,8 @@ function Home() {
               </p>
               <h5 className="mb-4 text-lg font-bold" id="feature-title">Experience</h5>
               <p className="text-neutral-500 dark:text-neutral-300">5+ Years in Technology<br />
-                Designer <br />
-                Artist <br />
+                Bachelor of Arts <br />
+                Work in Teams <br />
                 Creativity <br />
               </p>
             </div>

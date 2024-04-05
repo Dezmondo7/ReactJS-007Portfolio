@@ -3,9 +3,9 @@ body {
 }
 
 
-/*.top-image {
-  margin-top: -40px;
-}*/
+.top-image {
+  margin-top: 40px;
+}
 
 .card-title a {
     font-size: 10rem;
@@ -35,10 +35,6 @@ body {
 
   img {
     height: 140px;
-  }
-
-  .md:w-20 {
-    margin-bottom: 10px;
   }
 
   .container {
@@ -73,10 +69,19 @@ body {
     width: 18rem;
   }
 
-  /* Desireable feature section 
-  .h5x {
-    color: black
-  } */
+  .aboutme-bckgrnd {
+    background: linear-gradient( #FAF9F6, #FAF9F6, rgb(255 255 255),rgb(255 255 255));
+    color: white;
+    padding-bottom: 20px;
+  }
+
+
+
+
+
+ 
+  /* Desireable feature section */
+ 
 
   .feat-fullscreen {
     background-color: white;

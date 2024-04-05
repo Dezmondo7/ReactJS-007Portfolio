@@ -33,6 +33,7 @@ function Home() {
       </section>
 
       {/*About me section*/}
+      <div className="container-wide aboutme-bckgrnd" id="cont-about">
       <div className="container my-24 mx-auto md:px-6">
 
         <section className="mb-32">
@@ -107,8 +108,9 @@ function Home() {
         </section>
 
       </div>
+      </div>
 
-
+{/*Feature Section */}
       <div className="feat-fullscreen">
       <div className="container-wide my-24 mx-auto md:px-6" id="des-cont">
 

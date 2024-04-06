@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Bootstrap Portfolio",
-        "image": "../../images/jjscalc.avif",
+        "image": "/../images/Curated.png",
         "deployed": "https://dezmondo7.github.io/Bootstrap-Portfolio/",
         "github": "https://github.com/Dezmondo7/Bootstrap-Portfolio",
         "description": "Designed a Bootstrap portfolio to replicate the site I built using HTML5 and CSS3"

@@ -114,6 +114,70 @@ body {
     background-color: rgba(180, 184, 255, 1);
   }
 
+  /* Rotating Navbar */
+  .rotating-body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background: white;
+  }
+
+  .logo {
+    overflow: hidden;
+    padding: 30px 0;
+    white-space: nowrap;
+    position: relative;
+  }
+
+  @keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+
+  .logo-slide {
+    animation: 35s slide infinite linear;
+    display: inline-block;
+  }
+
+  .logo:hover .logo-slide {
+    animation-play-state: paused;
+
+  }
+
+  .logo:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+    content: "";
+    z-index: 2;
+  }
+  
+
+  .logo-slide .fa-brands {
+    height: 50px;
+    color: black;
+    margin: 0 200px;
+  } 
+
+  .logo:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100%;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+    content: "";
+    z-index: 2;
+  }
+
 
 
   @media only screen and (max-width: 612px) {

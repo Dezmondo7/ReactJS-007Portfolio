@@ -248,7 +248,7 @@ function Home() {
 
     {/*Testomanials*/}
 
-    <div className="mx-auto text-center md:max-w-xl lg:max-w-3xl">
+    <div className="mx-auto text-center md:max-w-xl lg:max-w-3xl" id="test-cont">
   <h3 className="mb-6 text-3xl font-bold" id="test-fnt">Testimonials</h3>
   <p
     className="mb-6 pb-2 text-neutral-600 dark:text-neutral-300 md:mb-12 md:pb-0" id="text-p">
@@ -457,7 +457,7 @@ function Home() {
             d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z" />
         </svg>
       </span>
-      Dale is a great asset certainly to RWL currently but Im sure also to anyone who else has the opportunity to cross his path. Hes a very diligent, focused, driven individual who delivers and manages his duties above and beyond. 
+      Dale is a great asset to RWL. Hes a very diligent, focused, driven individual who delivers and manages his duties above and beyond. 
     </p>
     <ul className="mb-0 flex items-center justify-center">
       <li>
@@ -529,7 +529,7 @@ function Home() {
 
 
       {/*Bottom two images*/}
-      <div className="container mx-auto py-9 md:py-12 px-4 md:px-6">
+  {/*}    <div className="container mx-auto py-9 md:py-12 px-4 md:px-6">
 
         <div className="flex items-strech justify-center flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6 lg:space-x-8">
           <div className="flex flex-col md:flex-row items-strech justify-between bg-gray-50 dark:bg-gray-800 py-6 px-6 md:py-12 lg:px-12 md:w-8/12 lg:w-7/12 xl:w-8/12 2xl:w-9/12">
@@ -551,9 +551,9 @@ function Home() {
             </div>
           </div>
         </div>
-      </div>
+</div>*/}
 
-    </div>
+</div> 
 
 
 

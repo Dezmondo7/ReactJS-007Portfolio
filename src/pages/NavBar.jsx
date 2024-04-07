@@ -8,7 +8,7 @@ import '../pages/NavBar.css';
 const navigation = [
   { name: 'Home', href: '#', current: true },
   { name: 'Projects', href: '#/Projects', current: false },
-  { name: 'About', href: '#/About', current: false },
+  { name: 'Github', href: '#/Github', current: false },
   { name: 'Contact', href: '#/Contact', current: false },
 ]
 

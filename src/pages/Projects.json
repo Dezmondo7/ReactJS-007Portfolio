@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Bootstrap Portfolio",
-        "image": "../../public/Bootstrapimg.jpg",
+        "image": "/Bootstrapimg.jpg",
         "deployed": "https://dezmondo7.github.io/Bootstrap-Portfolio/", 
         "github": "https://github.com/Dezmondo7/Bootstrap-Portfolio",
         "description": "Designed a Bootstrap portfolio to replicate the site I built using HTML5 and CSS3"
@@ -10,7 +10,7 @@
     {
         "id": 2,
         "name": "HTML & CSS Portfolio",
-        "image": "../../public/htmlcss.jpg",
+        "image": "/htmlcss.jpg",
         "deployed": "https://dezmondo7.github.io/007Portfolio/",
         "github": "https://github.com/Dezmondo7/007Portfolio",
         "description": "Portfolio designed & built using custom HTML5 & CSS3 based off a wireframe."
@@ -18,7 +18,7 @@
     {
         "id": 3,
         "name": "Team Profile Generator",
-        "image": "../../public/teammbs.jpg",
+        "image": "/teammbs.jpg",
         "deployed": "",
         "github": "https://github.com/Dezmondo7/TeamGenerator",
         "description": "NodeJS, FS & Inquirer project using object oriented programming to gather data."
@@ -27,7 +27,7 @@
     {
         "id": 4,
         "name": "Weather Dashboard",
-        "image": "../../public/sunset.jpg",
+        "image": "/Sunset.jpg",
         "deployed": "",
         "github": "https://github.com/Dezmondo7/WeatherDashboard",
         "description": "Weather Dashboard, using JavaScript and API to gather weather information from Cities."
@@ -35,7 +35,7 @@
     {
         "id": 5,
         "name": "Python Adventure Game",
-        "image": "../../public/Python.jpg",
+        "image": "/Python.jpg",
         "deployed": "",
         "github": "https://github.com/Dezmondo7/Python",
         "description": "This was a team project where we developed an adventure game using Python programming."
@@ -43,7 +43,7 @@
     {
         "id": 6,
         "name": "JavaScript Quiz",
-        "image": "../../public/timer.jpg",
+        "image": "/timer.jpg",
         "deployed": "https://dezmondo7.github.io/JavaScript-Quiz/",
         "github": "https://github.com/Dezmondo7/JavaScript-Quiz",
         "description": "Timed quiz dsigned using JavaScript to create a multiple choice quiz."

@@ -193,7 +193,8 @@ function Home() {
                   Bootstrap <br />
                   Tailwind CSS <br />
                   Github <br />
-                  VS Code <br /> </p>
+                  VS Code <br /> 
+                  Netlify</p>
 
               </div>
 

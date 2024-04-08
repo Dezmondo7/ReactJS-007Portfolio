@@ -1,7 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import '../pages/Cardholder.css';
-import hks from '../images/hks.jpg'
 
 function Cardholder(props) {
     return (

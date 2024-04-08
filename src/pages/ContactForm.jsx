@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import emailjs from '@emailjs/browser';
-import '../pages/contactform.css';
+import '../pages/Contactform.css';
 
 //Created keys using EmailJS 
 const REACT_APP_SERVICE_ID = "service_fxbox86";

@@ -16,3 +16,8 @@
 .card-body a {
     text-decoration: none;
 }
+
+#card-btn {
+    padding-top: -10;
+    margin: 0;
+}

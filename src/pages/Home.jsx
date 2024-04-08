@@ -168,7 +168,7 @@ function Home() {
                   UI, UX, Web & Apps.
                 </p>
                 <h5 className="mb-4 text-lg font-bold" id="feature-title">Design tools</h5>
-                <p className="text-neutral-500 dark:text-neutral-300">Canva<br />
+                <p className="text-neutral-500 dark:text-neutral-300" id="abtme-fea-1">Canva<br />
                   Figma <br />
                   Pen & Paper</p>
               </div>
@@ -189,7 +189,7 @@ function Home() {
                   HTML5, CSS3, JavaScript, Git
                 </p>
                 <h5 className="mb-4 text-lg font-bold" id="feature-title">Dev Tools</h5>
-                <p className="text-neutral-500 dark:text-neutral-300">ReactJS<br />
+                <p className="text-neutral-500 dark:text-neutral-300" id="abtme-fea-1">ReactJS<br />
                   Bootstrap <br />
                   Tailwind CSS <br />
                   Github <br />
@@ -216,7 +216,7 @@ function Home() {
                   Mobile & Web Apps, Front-End
                 </p>
                 <h5 className="mb-4 text-lg font-bold" id="feature-title">Experience</h5>
-                <p className="text-neutral-500 dark:text-neutral-300">5+ Years in Technology<br />
+                <p className="text-neutral-500 dark:text-neutral-300" id="abtme-fea">5+ Years in Technology<br />
                   Bachelor of Arts <br />
                   Work in Teams <br />
                   Creativity <br />

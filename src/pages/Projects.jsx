@@ -2,7 +2,7 @@ import React from "react";
 import Netflix from "../images/netflixpic.png";
 import './Projects.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ironman from '../images/ironman-venom.png';
+import ironman from '../images/ironmanvnm.png';
 import Curated from '../images/gallery-s.png';
 
 

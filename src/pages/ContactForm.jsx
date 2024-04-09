@@ -48,7 +48,7 @@ const ContactForm = () => {
         message
       };
 
-      //Removed Process.env and directly implemented the SERVICE ID, TEMPLATE ID and PUBLIC KEY
+      //Implemented the SERVICE ID, TEMPLATE ID and PUBLIC KEY
       await emailjs.send(
         REACT_APP_SERVICE_ID,
         REACT_APP_TEMPLATE_ID,

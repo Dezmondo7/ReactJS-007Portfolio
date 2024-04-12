@@ -1,8 +1,28 @@
-# React + Vite
+# ReactJS 007 Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The aim of this project is to execute a design that showcases all of my work and Github projects in a ReactJS webiste using some of the latest libraries.
 
-Currently, two official plugins are available:
+## Functionality
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The website showcases information about me and my coding abilities. It also showcases the applications that I have been involved in building and also the projects that built.
+
+## Tech Stack
+
+The list of the Tech Stack used in developing the webiste.
+
+* Bootstrap
+* JQuery
+* HTML5, CSS3 and JavaScript
+* ReactJS, NodeJS, Tailwind CSS
+
+## Collaborators/Applications
+
+* [Dale Warburton](https://github.com/Dezmondo7)
+
+## Mock-Up
+
+The following image shows the web application's appearance and functionality: 
+
+## Deployment
+
+The application is deployed live at the following 

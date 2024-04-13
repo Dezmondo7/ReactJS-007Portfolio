@@ -22,7 +22,9 @@ The list of the Tech Stack used in developing the webiste.
 ## Mock-Up
 
 The following image shows the web application's appearance and functionality: 
+![Image of the homepage](<src/images/Screenshot 2024-04-13 at 17-40-19 React 007Portfolio.png>)
 
 ## Deployment
 
 The application is deployed live at the following 
+https://main--reactjs-007portfolio.netlify.app/# 

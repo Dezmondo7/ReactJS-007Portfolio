@@ -10,10 +10,8 @@ The website showcases information about me and my coding abilities. It also show
 
 The list of the Tech Stack used in developing the webiste.
 
-* Bootstrap
-* JQuery
-* HTML5, CSS3 and JavaScript
-* ReactJS, NodeJS, Tailwind CSS
+* HTML5, CSS3, ReactJS, JavaScript, JQuery
+* Bootstrap, NodeJS, Tailwind CSS
 
 ## Collaborators/Applications
 

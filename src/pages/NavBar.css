@@ -1,13 +1,21 @@
-.bg-gray-800 a {
+/* Custome Fonts*/
+@font-face {
+    font-family: Centra;
+    src: url 
+}
+
+
+* {
+    box-sizing: border-box;
     text-decoration: none;
+  }
+
+.container {
+    background-color: grey;
+    border: ;
+
 }
 
-.h-8 {
-    margin-right: 20px;
-}
-
-.fa-brands p {
-    font-family: Roboto;
-    font-weight: 500;
-    font-size: large;
+.home {
+    color: white;
 }

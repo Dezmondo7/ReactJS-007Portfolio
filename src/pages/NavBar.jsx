@@ -31,6 +31,7 @@ function NavBar() {
 
 
   return (
+    <div className="navbar123">
     <Navbar  expand="lg" className={scrolled ? "scrolled": ""}>
       <Container>
         <Navbar.Brand href="#Home">
@@ -57,6 +58,7 @@ function NavBar() {
 
       </Container>
     </Navbar>
+    </div>
   )
 }
 

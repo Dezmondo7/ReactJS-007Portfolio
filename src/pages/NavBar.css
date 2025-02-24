@@ -8,14 +8,10 @@
 * {
     box-sizing: border-box;
     text-decoration: none;
+    color: antiquewhite;
+    
   }
 
-.container {
-    background-color: grey;
-    border:
-
-}
-
-.home {
-    color: white;
-}
+ .container {
+    background-color: white;
+ }

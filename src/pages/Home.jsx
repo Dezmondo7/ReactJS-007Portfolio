@@ -54,7 +54,7 @@ function Home() {
 
       </section>
 
-      {/*About me section*/}
+      {/*About me section*/} {/*}
       <div className="container-wide aboutme-bckgrnd" id="cont-about">
         <div className="container my-24 mx-auto md:px-6">
 

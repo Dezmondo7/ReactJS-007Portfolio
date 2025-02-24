@@ -32,12 +32,16 @@ body {
     height: 140px;
   }
 
-  .container {
+  #cont-about {
+    background-color: black;
+  }
+  
+ /* .container {
     background-color: black;
     border-radius: 1rem;
     margin-top: 20px;
     flex-direction: row;
-  }
+  }*/
 
   .w-full {
     height: 400px;

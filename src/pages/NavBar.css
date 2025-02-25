@@ -1,16 +1,43 @@
 /* Custome Fonts*/
 @font-face {
     font-family: Centra;
-    src: url 
+    src: url(); /*assest folder download*/ 
+    font-weight: 700;
 }
 
+@font-face {
+    font-family: Centra;
+    src: url(); /*assest folder download*/ 
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Centra;
+    src: url(); /*assest folder download*/ 
+    font-weight: 400;
+}
 
 * {
-    box-sizing: border-box;
-    text-decoration: none;
-    color: antiquewhite;
-    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
   }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 75px;
+  }
+
+  body {
+    font-weight: 400;
+    overflow-x: hidden;
+    position: relative;
+    background-color: white !important;
+    color: black !important;
+    font-family: Centra, sans-serif !important;
+
+  }
+
 
  .container {
     background-color: white;

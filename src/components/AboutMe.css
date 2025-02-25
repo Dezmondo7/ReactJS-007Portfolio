@@ -1,11 +1,9 @@
-* {
-    {
-        container{
-            background-color: black;
-        }
-    }
-}
-
-#cont-about {
+.container1 {
+    color: black;
     background-color: black;
+    border-radius: 1rem;
+    margin-top: 20px;
+    flex-direction: row;
+    max-width: 1080px;
+    display: inline-flex;
 }

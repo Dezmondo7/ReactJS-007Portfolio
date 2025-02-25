@@ -1,6 +1,7 @@
 import React from "react";
 import myImage from "../images/header-image.avif";
 import './styles.css';
+import AboutMe from "../components/AboutMe";
 
 function Home() {
 
@@ -53,6 +54,10 @@ function Home() {
         </div>
 
       </section>
+
+      <div>
+        <AboutMe></AboutMe>
+      </div>
 
       {/*About me section*/} {/*}
       <div className="container-wide aboutme-bckgrnd" id="cont-about">

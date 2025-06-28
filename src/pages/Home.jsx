@@ -2,6 +2,7 @@ import React from "react";
 import myImage from "../images/header-image.avif";
 import './styles.css';
 import AboutMe from "../components/AboutMe";
+import ContactForm from "../pages/ContactForm"
 
 function Home() {
 
@@ -558,9 +559,11 @@ function Home() {
           </div>
         </div>
 </div>*/}
-
+ <div>
+      <ContactForm></ContactForm>
     </div>
-
+    </div>
+   
 
 
   );

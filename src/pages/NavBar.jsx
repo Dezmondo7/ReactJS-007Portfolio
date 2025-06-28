@@ -3,11 +3,12 @@ import { Navbar, Container } from "react-bootstrap";
 import logo from '../assets/spyroweb.png';
 import { NavLink } from "react-router-dom";
 import '../pages/NavBar.css';
-{/*import navIcon1 from '';
+{/*import React from 'react';
+import navIcon1 from '';
 import navIcon2 from '';
 import navIcon3 from '';*/}
 
-import React from 'react';
+
 
 function NavBar() {
   const [activeLink, setActiveLink] = useState('home');

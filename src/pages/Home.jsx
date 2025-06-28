@@ -9,26 +9,7 @@ function Home() {
   return (
     <div className="top-image">
 
-      <div className="logo">
-        <div className="logo-slide">
-          <i className="fa-brands fa-html5 fa-2xl"></i>
-          <i className="fa-brands fa-css3-alt fa-2xl"></i>
-          <i className="fa-brands fa-js fa-2xl"></i>
-          <i className="fa-brands fa-python fa-2xl"></i>
-          <i className="fa-brands fa-node-js fa-2xl"></i>
-          <i className="fa-brands fa-bootstrap fa-2xl"></i>
-          <i className="fa-brands fa-react fa-2xl"></i>
-        </div>
-        <div className="logo-slide">
-          <i className="fa-brands fa-html5 fa-2xl"></i>
-          <i className="fa-brands fa-css3-alt fa-2xl"></i>
-          <i className="fa-brands fa-js fa-2xl"></i>
-          <i className="fa-brands fa-python fa-2xl"></i>
-          <i className="fa-brands fa-node-js fa-2xl"></i>
-          <i className="fa-brands fa-bootstrap fa-2xl"></i>
-          <i className="fa-brands fa-react fa-2xl"></i>
-        </div>
-      </div>
+   
 
       {/*<img src={myImage} height="200px" width="100%" alt="faded orange strip going across the page with the words project work in white in the bottom right corner" />*/}
       {/*Hero Section*/}
@@ -58,6 +39,27 @@ function Home() {
 
       <div>
         <AboutMe></AboutMe>
+      </div>
+
+         <div className="logo">
+        <div className="logo-slide">
+          <i className="fa-brands fa-html5 fa-2xl"></i>
+          <i className="fa-brands fa-css3-alt fa-2xl"></i>
+          <i className="fa-brands fa-js fa-2xl"></i>
+          <i className="fa-brands fa-python fa-2xl"></i>
+          <i className="fa-brands fa-node-js fa-2xl"></i>
+          <i className="fa-brands fa-bootstrap fa-2xl"></i>
+          <i className="fa-brands fa-react fa-2xl"></i>
+        </div>
+        <div className="logo-slide">
+          <i className="fa-brands fa-html5 fa-2xl"></i>
+          <i className="fa-brands fa-css3-alt fa-2xl"></i>
+          <i className="fa-brands fa-js fa-2xl"></i>
+          <i className="fa-brands fa-python fa-2xl"></i>
+          <i className="fa-brands fa-node-js fa-2xl"></i>
+          <i className="fa-brands fa-bootstrap fa-2xl"></i>
+          <i className="fa-brands fa-react fa-2xl"></i>
+        </div>
       </div>
 
       {/*About me section*/} {/*}

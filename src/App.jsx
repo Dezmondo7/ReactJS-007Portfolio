@@ -1,4 +1,4 @@
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+{/* import { HashRouter as Router, Routes, Route } from 'react-router-dom';} */}
 import React from "react";
 import Home from './pages/Home';
 import NavBar from './pages/NavBar';
@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import Projects from './pages/Projects';
 import Cardsgallery from './pages/Cardsgallery';
 import ContactForm from './pages/ContactForm';
+import {BrowserRouter as Router} from 'react-router-dom';
 
 function App() {
 
@@ -14,12 +15,13 @@ function App() {
       <div className='contenet-wrapper'>
         <Router>
           <NavBar />
-          <Routes>
+          <Home />
+        {/*}  <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/Projects" element={<Projects />} />
             <Route path="/Github" element={<Cardsgallery />} />
             <Route path="/Contact" element={<ContactForm />} />
-          </Routes >
+          </Routes > */}
         </Router >
       </div>
       <Footer />

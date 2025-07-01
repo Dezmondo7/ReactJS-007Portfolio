@@ -1,18 +1,35 @@
-import React from 'react';
+import React from 'react'
+import {Nav, NavLink, Bars, NavMenu, NavBtn, NavBtnLink } from './NavbarElements'
 
-function NavBar() {
 
-  return(
-    <div>
-<nav className="navbar navbar-light bg-light justify-content-between">
-  <a className="navbar-brand">Navbar</a>
-  <form className="form-inline">
-    {/*<input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />*/}
-    <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-  </form>
-</nav>
-</div>
-)
+const NavBar = () => {
+  return (
+    <>
+    <Nav>
+        <NavLink to="/">
+          <h1>Logo</h1>
+        </NavLink>
+        <Bars />
+        <NavMenu>
+            <NavLink to="/about" activeStyle>
+            about
+            </NavLink>
+              <NavLink to="/services" activeStyle>
+            Services
+            </NavLink>
+              <NavLink to="/skills" activeStyle>
+            skills
+            </NavLink>
+              <NavLink to="/contact" activeStyle>
+            contact
+            </NavLink>
+        </NavMenu>
+        <NavBtn>
+            <NavBtnLink to="/signin">Sign in</NavBtnLink>
+        </NavBtn>
+    </Nav>
+    </>
+  );
 }
 
-export default NavBar;
+export default NavBar

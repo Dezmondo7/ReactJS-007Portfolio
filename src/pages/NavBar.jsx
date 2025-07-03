@@ -21,11 +21,10 @@ const NavBar = () => {
             Values
             </NavLink>
               <NavLink to="/contact" activeStyle>
-            Contact
             </NavLink>
         </NavMenu>
         <NavBtn>
-            <NavBtnLink to="/signin">Sign in</NavBtnLink>
+            <NavBtnLink to="/signin">Contact Me</NavBtnLink>
         </NavBtn>
     </Nav>
     </>

@@ -16,7 +16,7 @@ import '../components/AboutMe.css';
                   <div className="mb-12 lg:mb-0">
                     <div
                       className="relative z-[1] block rounded-lg bg-[hsla(0,0%,100%,0.55)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] backdrop-blur-[30px] dark:bg-[hsla(0,0%,5%,0.55)] dark:shadow-black/20 md:px-12 lg:-mr-14">
-                      <h2 className="mb-8 text-3xl font-bold">Dale</h2>
+                      <h2 className="mb-8 text-3xl font-bold">Hi, Im Dale</h2>
                       <i className="fa-brands fa-html5 fa-2xl"></i><i className="fa-brands fa-css3-alt fa-2xl"></i><i className="fa-brands fa-js fa-2xl"></i><i className="fa-brands fa-python fa-2xl"></i><i className="fa-brands fa-node-js fa-2xl"></i><i className="fa-brands fa-bootstrap fa-2xl"></i><i className="fa-brands fa-react fa-2xl"></i>
                       <p className="mb-8 pb-2 text-neutral-500 dark:text-neutral-300 lg:pb-0">
                         HTML5, CSS3, JavaScript, ES6, Python, JQuery, NodeJS, ReactJS, Bootstrap, Tailwind CSS, Canva, Kanban, Agile, Git.
@@ -56,18 +56,16 @@ import '../components/AboutMe.css';
                       <p className="mb-0 text-neutral-500 dark:text-neutral-300">
                         I am a creative Web Designer, Developer and Software Engineer who uses the latest technologies and frameworks to create aesthetically pleasing, responsive websites with a mobile first approach that work seemlessly across Desktop and Tablets.
                         <ul><li><br></br></li>
-                          <li>SERVICES</li>
-                          <li>Logo Design</li>
-                          <li>Web Design & Development</li>
-                          <li>Copywriting & Content Creation</li>
+                          <li><b>QUALIFICATIONS<b></li>
                           <br></br>
-
-                          <li>QUALIFICATIONS</li>
-                          <li>98% in Front-End Engineering (Web Development)</li>
+                          <li>Wesbite Software ITQ</li>
+                          <li>Cyber Security </li>
+                          <li>Using Collaborative Technolgies ITQ</li>
+                          <li>IT User Skills Open Systems and Enterprises ITQ</li>
+                          <li>Certified Front-End Engineer 98% (Web Development)</li>
                           <li>BA (Hons) 2:1 Journalism University of Central Lancs </li>
                         </ul>
                       </p>
-                      <button type="button" className="btn btn-primary btn-lg" href="contact-location">Contact Me</button>
                     </div>
                   </div>
 

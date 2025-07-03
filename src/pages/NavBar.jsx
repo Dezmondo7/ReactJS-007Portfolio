@@ -11,17 +11,17 @@ const NavBar = () => {
         </NavLink>
         <Bars />
         <NavMenu>
-            <NavLink to="/about" activeStyle>
-            about
+            <NavLink to="/About" activeStyle>
+            About
             </NavLink>
-              <NavLink to="/services" activeStyle>
-            Services
+              <NavLink to="" activeStyle>
+            Skills
             </NavLink>
               <NavLink to="/skills" activeStyle>
-            skills
+            Values
             </NavLink>
               <NavLink to="/contact" activeStyle>
-            contact
+            Contact
             </NavLink>
         </NavMenu>
         <NavBtn>

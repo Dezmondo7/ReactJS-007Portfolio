@@ -8,9 +8,6 @@ function Home() {
 
   return (
     <div className="top-image">
-
-   
-
       {/*<img src={myImage} height="200px" width="100%" alt="faded orange strip going across the page with the words project work in white in the bottom right corner" />*/}
       {/*Hero Section*/}
       <section className="mb-40">
@@ -21,10 +18,10 @@ function Home() {
                 <div
                   className="block rounded-lg bg-[hsla(0,0%,100%,0.55)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-[hsla(0,0%,5%,0.55)] dark:shadow-black/20 md:px-12 lg:-mr-14 backdrop-blur-[30px]">
                   <h1 className="mt-2 mb-16 text-4xl font-bold tracking-tight md:text-5xl xl:text-6xl justify-center">
-                    Welcome to my  <br /><span className="text-primary">ReactJS Portfolio</span>
+                    Welcome to my  <br /><span className="text-primary">Web Skillset</span>
                   </h1>
-                  <a className="mb-2 inline-block rounded bg-primary px-12 pt-4 pb-3.5 text-sm font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] md:mr-2 md:mb-0"
-                    data-te-ripple-init data-te-ripple-color="light" href="https://docs.google.com/document/d/198GZtFk6SS9Jpw8MPSsGV7cVyiEjQ_J-BoCSKwF93-c/edit?usp=sharing" target="_blank" role="button">&nbsp;&nbsp;View CV&nbsp;&nbsp;</a>
+                  {/*<a className="mb-2 inline-block rounded bg-primary px-12 pt-4 pb-3.5 text-sm font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] md:mr-2 md:mb-0"
+                    data-te-ripple-init data-te-ripple-color="light" href="https://docs.google.com/document/d/198GZtFk6SS9Jpw8MPSsGV7cVyiEjQ_J-BoCSKwF93-c/edit?usp=sharing" target="_blank" role="button">&nbsp;&nbsp;View CV&nbsp;&nbsp;</a> */}
                 </div>
               </div>
               <div className="md:mb-12 lg:mb-0">
@@ -37,7 +34,7 @@ function Home() {
 
       </section>
 
-      <div>
+      <div id="#/about">
         <AboutMe></AboutMe>
       </div>
 
@@ -195,15 +192,15 @@ function Home() {
                 </p>
                 <h5 className="mb-4 text-lg font-bold" id="feature-title">Languages I speak</h5>
                 <p className="text-neutral-500 dark:text-neutral-300">
-                  HTML5, CSS3, JavaScript, Git
+                  HTML5, CSS3, React, JavaScript
                 </p>
                 <h5 className="mb-4 text-lg font-bold" id="feature-title">Dev Tools</h5>
                 <p className="text-neutral-500 dark:text-neutral-300" id="abtme-fea-1">ReactJS<br />
                   Bootstrap <br />
-                  Tailwind CSS <br />
+                  Tailwind <br />
                   Github <br />
-                  VS Code <br />
-                  Netlify</p>
+                  Bash <br />
+                  NodeJS</p>
 
               </div>
 
@@ -451,7 +448,7 @@ function Home() {
               src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(9).jpg"
               className="w-32 rounded-full shadow-lg dark:shadow-black/30" />
           </div>
-          <h5 className="mb-4 text-xl font-semibold">Grant Roughley</h5>
+          <h5 className="mb-4 text-xl font-semibold">Grant</h5>
           <h6 className="mb-4 font-semibold text-primary dark:text-primary-400">
             Network Engineer
           </h6>
@@ -466,7 +463,7 @@ function Home() {
                   d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z" />
               </svg>
             </span>
-            "Dale is a great asset to RWL. Hes a very diligent, focused, driven individual who delivers and manages his duties above and beyond."
+            "Dale is a great asset. Hes a very diligent, focused, driven individual who delivers and manages his duties above and beyond."
           </p>
           <ul className="mb-0 flex items-center justify-center">
             <li>

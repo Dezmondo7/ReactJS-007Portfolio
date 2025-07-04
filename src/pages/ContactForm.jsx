@@ -72,7 +72,7 @@ const ContactForm = () => {
 
   return (
     <body className="body">
-      <div className='Contactform'>
+      <div id="contactze" className='Contactform'>
         <div className='container' id="form-back">
           <div className='row'>
             <div className='col-12 text-center'>

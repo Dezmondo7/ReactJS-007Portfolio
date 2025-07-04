@@ -157,7 +157,7 @@ function Home() {
               </div>
             </div>
 
-            <div className="grid gap-x-6 md:grid-cols-1 lg:grid-cols-3 lg:gap-x-12">
+            <div id="values" className="grid gap-x-6 md:grid-cols-1 lg:grid-cols-3 lg:gap-x-12">
               <div className="mb-12 lg:mb-0">
                 <div className="mb-6 inline-block rounded-full bg-primary-100 p-4 text-primary shadow-sm">
                   <svg className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">

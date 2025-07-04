@@ -13,7 +13,7 @@ export const Nav = styled.nav`
 `
 
 export const NavLink = styled(Link)`
-  color: #fff;
+  color: white;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -25,14 +25,18 @@ export const NavLink = styled(Link)`
   a:hover {
   background-color: white;
   border-radius: 20px;
+  color: blue;
   }
 
   a {
-  text-decoration: none}
+  text-decoration: none;
+  color: white;
+  }
 
   &.active {
   color: white;
   }
+
 `
 
 export const HashLink = styled(Link)`

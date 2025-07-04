@@ -1,5 +1,7 @@
 import React from 'react'
+{/*import { NavLink } from 'react-router-dom'; */}
 import {Nav, NavLink, Bars, NavMenu, NavBtn, NavBtnLink } from './NavbarElements'
+import { HashLink } from 'react-router-hash-link';
 
 
 const NavBar = () => {
@@ -11,8 +13,8 @@ const NavBar = () => {
         </NavLink>
         <Bars />
         <NavMenu>
-            <NavLink to="/About" activeStyle>
-            About
+            <NavLink to="/about" activeStyle >
+            <HashLink to="#about" activeStyle>About</HashLink>
             </NavLink>
               <NavLink to="" activeStyle>
             Skills

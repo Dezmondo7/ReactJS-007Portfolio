@@ -56,7 +56,7 @@ import '../components/AboutMe.css';
                       <p className="mb-0 text-neutral-500 dark:text-neutral-300">
                         I am a creative Web Designer, Developer and Software Engineer who uses the latest technologies and frameworks to create aesthetically pleasing, responsive websites with a mobile first approach that work seemlessly across Desktop and Tablets.
                         <ul><li><br></br></li>
-                          <li><b>QUALIFICATIONS<b></li>
+                         <li><b>QUALIFICATIONS</b></li>
                           <br></br>
                           <li>Wesbite Software ITQ</li>
                           <li>Cyber Security </li>

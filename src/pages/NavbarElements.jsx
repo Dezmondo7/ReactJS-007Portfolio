@@ -21,10 +21,22 @@ export const NavLink = styled(Link)`
   height: 100%;
   cursor: pointer;
   margin: 0 5px;
+  
+  a:hover {
+  background-color: white;
+  border-radius: 20px;
+  }
+
+  a {
+  text-decoration: none}
 
   &.active {
-  color: #15cdfc;
+  color: white;
   }
+`
+
+export const HashLink = styled(Link)`
+text-decoration: none;
 `
 
 export const Bars = styled(FaBars)`

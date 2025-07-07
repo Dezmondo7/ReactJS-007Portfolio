@@ -72,7 +72,7 @@ const ContactForm = () => {
 
   return (
     <body className="body">
-      <div id="contactze" className='Contactform'>
+      <div className='Contactform'>
         <div className='container' id="form-back">
           <div className='row'>
             <div className='col-12 text-center'>
@@ -97,7 +97,7 @@ const ContactForm = () => {
                       {errors.name && <span className='errorMessage'>{errors.name.message}</span>}
                     </div>
                     <div className='col-6'>
-                      <input
+                      <input 
                         type='email'
                         name='email'
                         {...register('email', {

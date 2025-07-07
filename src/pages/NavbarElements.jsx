@@ -56,6 +56,13 @@ transform: translate(-100%, 75%);
 font-size: 1.8rem;
 cursor: pointer;
 }
+
+@media screen and (max-width: 760px) {
+
+.bars_menuItems {
+  display: none;
+}
+
 `
 
 export const NavMenu = styled.div`
